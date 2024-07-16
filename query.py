@@ -14,7 +14,9 @@ from llama_index.core.callbacks import CallbackManager
 
 # Setup logging
 logging.basicConfig(stream=sys.stdout, level=logging.INFO)
-os.environ['OPENAI_API_KEY'] = 'add-api-key-here'
+
+# uncomment this line of code below by deleting hashtag before it:
+# os.environ['OPENAI_API_KEY'] = 'add-api-key-here'
 
 # Load OpenAI API key from environment variable
 api_key = os.getenv('OPENAI_API_KEY')
