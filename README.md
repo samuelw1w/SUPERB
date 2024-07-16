@@ -16,4 +16,6 @@ To run rag.py (Written in Haystack - Contains UI) - In terminal, run:
 
 streamlit run rag.py
 
+*** to run both rag.py and query.py you need an openai api key, which you can get from openai's website ***
+
 
